@@ -1,6 +1,6 @@
 ## Installation
 ```bash
-npm install @levihub/pathbuilder
+npm i @levihub/pathbuilder
 ```
 
 ## Declaration
