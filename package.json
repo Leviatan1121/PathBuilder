@@ -1,0 +1,25 @@
+{
+  "name": "@levihub/pathbuilder",
+  "version": "1.0.0",
+  "description": "Simple path builder based on 'path' core package.",
+  "type": "module",
+  "exports": {
+    ".": {
+      "require": "./dist/PathBuilder.cjs",
+      "import": "./dist/PathBuilder.mjs"
+    }
+  },
+  "author": "Leviatan1121 (https://levihub.dev)",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leviatan1121/PathBuilder.git"
+  },
+  "keywords": [
+    "path"
+  ],
+  "bugs": {
+    "url": "https://github.com/Leviatan1121/PathBuilder/issues"
+  },
+  "homepage": "https://github.com/Leviatan1121/PathBuilder#readme"
+}
