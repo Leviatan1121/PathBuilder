@@ -1,13 +1,16 @@
+## Installation
 ```bash
-  npm install @leviatan1121/pathbuilder
+npm install @levihub/pathbuilder
 ```
 
+## Declaration
 ```javascript
-const Path = require('pathbuilder');
+const Path = require('@levihub/pathbuilder');
 // or
-import Path from 'pathbuilder';
+import Path from '@levihub/pathbuilder';
 ```
 
+## Working with modules
 ```javascript
 // __dirname and __filename are not available in modules
 // this can help you with the problem
@@ -18,6 +21,7 @@ const __filename = fileURLToPath(import.meta.url); // get the resolved path to t
 const __dirname = path.dirname(__filename); // get the name of the directory
 ```
 
+## Usage/Examples
 ```javascript
 const SRC = new Path(__dirname); // to create a simple path
 console.log(SRC.path); // to view a path
